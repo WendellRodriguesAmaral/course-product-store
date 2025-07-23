@@ -1,8 +1,20 @@
 {
-    "products": [
-        {
-            "id" : 1,
-            "title": "teste"
-        }
-    ]
+  "products": [
+    {
+      "id": "1",
+      "title": "teste"
+    },
+    {
+      "id": "aafc",
+      "title": "asd"
+    },
+    {
+      "id": "efbf",
+      "title": "asd"
+    },
+    {
+      "id": "d049",
+      "title": "a"
+    }
+  ]
 }
