@@ -35,7 +35,7 @@ export class CreateComponent {
 
     this.productService.post({ title: this.form.controls.title.value })
       .subscribe(() => {
-        this.matSnackBar.open('Produto criado com sucesso', 'OK');
+        this.matSnackBar.open('Produto criado com sucesso', 'OK'); // os parametros para a exibição da mensagem estão no app.config.ts
 
         this.router.navigateByUrl('/');
 

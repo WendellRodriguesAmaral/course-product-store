@@ -12,7 +12,7 @@ export const appConfig: ApplicationConfig = {
     provideAnimationsAsync(),
     provideHttpClient(),
     {
-      provide: MAT_SNACK_BAR_DEFAULT_OPTIONS,
+      provide: MAT_SNACK_BAR_DEFAULT_OPTIONS,  //configurações globais do MatSnackBar
       useValue: {
         duration: 3000,
         horizontalPosition: 'right',
