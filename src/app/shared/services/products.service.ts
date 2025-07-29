@@ -26,5 +26,4 @@ export class ProductsService {
     return this.http.get<Product>(`/api/products/${id}`)
   }
 
-
 }
