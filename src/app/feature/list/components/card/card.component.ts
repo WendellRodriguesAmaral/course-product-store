@@ -15,6 +15,7 @@ export class CardComponent {
   product =  input.required<Product>();  //Signal input
   
   @Output() edit =  new EventEmitter();
+  @Output() delete =  new EventEmitter();
 
   productTitle = computed(() => this.product().title);
 
