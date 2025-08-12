@@ -7,7 +7,13 @@ import { ProductsService } from './shared/services/products.service';
 export const routes: Routes = [
     {
         path: '',
-        component:ListComponent
+        component:ListComponent, 
+        resolve:{
+            products: ()=>{
+                const productService = inject(ProductsService);
+                return productService.getAll();
+            }
+        }
     },
     {
         path: 'create-product',
