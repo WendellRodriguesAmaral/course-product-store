@@ -1,20 +1,3 @@
 {
-  "products": [
-    {
-      "title": "test rota2",
-      "id": "4857"
-    },
-    {
-      "id": "31f2",
-      "title": "teste rota 2"
-    },
-    {
-      "id": "2eec",
-      "title": "teste rota 2"
-    },
-    {
-      "title": "sdfdd",
-      "id": "1048"
-    }
-  ]
+  "products": []
 }
